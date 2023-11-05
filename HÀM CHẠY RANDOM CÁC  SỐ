@@ -1,0 +1,9 @@
+#include <bits/stdc++.h>
+int main() {
+    srand(static_cast<unsigned int>(std::time(nullptr)));
+    int random_number = rand() % (MAX - MIN + 1) + MIN;
+    std::cout << "So ngau nhien: " << random_number << std::endl;
+
+    return 0;
+}
+//[MAX,MIN] : GIOI HAN SO CHAY NGAU NHIEN TRONG DOAN MAX,MIN
