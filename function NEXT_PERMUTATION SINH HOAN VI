@@ -14,3 +14,4 @@ int main(){
     } while (next_permutation(a,a+n));
     return 0;
 }
+// hoan vi nguoc : prev_permutation(a,a+n) 
